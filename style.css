@@ -173,3 +173,23 @@ main {
 .photos {
   height: 50%;
 }
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .player {
+    width: 80%;
+    padding: 0;
+  }
+  .dice {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .player,
+  .dice,
+  .photos {
+    width: 100%;
+    padding-top: 20%;
+  }
+}
